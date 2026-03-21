@@ -1,5 +1,39 @@
 # Changelog
 
+## [2026.3.11](https://github.com/jdx/mise/compare/v2026.3.10..v2026.3.11) - 2026-03-21
+
+### 🚀 Features
+
+- **(github)** read tokens from gh CLI hosts.yml config by @jdx in [#8692](https://github.com/jdx/mise/pull/8692)
+- **(task)** support optional `args` and `env` fields in `run` entries by @jdx in [#8687](https://github.com/jdx/mise/pull/8687)
+
+### 🐛 Bug Fixes
+
+- **(config)** recognize SSH and other non-HTTPS URLs in get_repo_url by @modestman in [#8666](https://github.com/jdx/mise/pull/8666)
+- **(docs)** add dark mode support to favicon by @jdx in [#8678](https://github.com/jdx/mise/pull/8678)
+- **(env)** support multiple --env/-E flags by @jdx in [#8686](https://github.com/jdx/mise/pull/8686)
+- **(implode)** include system data dir in implode cleanup by @jdx in [#8696](https://github.com/jdx/mise/pull/8696)
+- **(install)** skip GitHub API calls for aqua tools in --locked mode by @jdx in [#8679](https://github.com/jdx/mise/pull/8679)
+- **(shell)** error when no version specified instead of silent no-op by @jdx in [#8693](https://github.com/jdx/mise/pull/8693)
+- **(task)** inherit task_config.dir for included TOML and file tasks by @jdx in [#8689](https://github.com/jdx/mise/pull/8689)
+- improve usage spec element support in tasks by @nkakouros in [#8623](https://github.com/jdx/mise/pull/8623)
+- make env plugin (Module) vars available in Tera template context by @victor-founder in [#8682](https://github.com/jdx/mise/pull/8682)
+- respect MISE_COLOR=0 for color_eyre error output by @jdx in [#8690](https://github.com/jdx/mise/pull/8690)
+
+### 📚 Documentation
+
+- **(task)** clarify interactive task blocking behavior by @jdx in [#8685](https://github.com/jdx/mise/pull/8685)
+
+### 📦 Registry
+
+- add rtk ([github:rtk-ai/rtk](https://github.com/rtk-ai/rtk)) by @bricelalu in [#8683](https://github.com/jdx/mise/pull/8683)
+
+### New Contributors
+
+- @victor-founder made their first contribution in [#8682](https://github.com/jdx/mise/pull/8682)
+- @modestman made their first contribution in [#8666](https://github.com/jdx/mise/pull/8666)
+- @bricelalu made their first contribution in [#8683](https://github.com/jdx/mise/pull/8683)
+
 ## [2026.3.10](https://github.com/jdx/mise/compare/v2026.3.9..v2026.3.10) - 2026-03-21
 
 ### 🐛 Bug Fixes
